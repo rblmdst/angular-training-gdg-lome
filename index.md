@@ -1,4 +1,4 @@
-## Angular :
+# Workshop d'initiation à Angular
 
 **Angular** est un framework JavaScript développé par Google qui permet de
 créer des applications web monopages(Single Page Application). Il
