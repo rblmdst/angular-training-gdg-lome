@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 1.6rem;
 }
 body {
   color: #444;
+  font-size: 10px;
 }
 header nav li {
   list-style: none;
@@ -45,22 +46,44 @@ footer {
   text-align: center;
 }
 p {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 1em 0;
+}
+p,
+ol,
+ul,
+li,
+input,
+a {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  font-family: inherit;
+  font-weight: 400;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+}
 h1 {
+  font-size: 4rem;
+  display: inline-block;
+  margin: 1.6rem 0;
 }
 h2 {
-  margin-top: 35px;
-  margin-bottom: 15px;
-  font-size: 32px;
+  border-top: 1px solid #dbdbdb;
+  font-size: 3.2rem;
+  margin-top: 4rem;
+  padding-top: 4rem;
 }
 
 h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 24px;
+  font-size: 2.4rem;
+  margin-top: 3rem;
+  clear: both;
 }
 main li {
   list-style-position: inside;
