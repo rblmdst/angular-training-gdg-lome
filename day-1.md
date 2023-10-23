@@ -1,4 +1,4 @@
-# Jour #1 (24 Oct 2023)
+# Jour #1 (24 oct 2023)
 
 - [Présentation](https://rblmdst.github.io/angular-training-gdg-lome/00-presentation)
 - [Introduction](https://rblmdst.github.io/angular-training-gdg-lome/01-introduction)

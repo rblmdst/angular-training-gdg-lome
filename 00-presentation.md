@@ -9,8 +9,3 @@ Fournir les éléments essentiels pour construire une application avec Angular e
 - Présentation d'une notion
 - Exemple pratique
 - Exercices
-
-## Autres :
-
-- Canal d'échnange (Discord) :
-- Github : https://github.com/rblmdst/angular-training-gdg-lome

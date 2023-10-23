@@ -1,3 +1,11 @@
+:root {
+  --code-bg-color: #f3f6fa;
+  --code-text-color: #567482;
+  --border-color: #dce6f0;
+  --table-border-color: #e9ebec;
+  --hr-border-color: #eff0f1;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -100,6 +108,10 @@ main {
 footer {
   text-align: center;
 }
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
 main li {
   list-style-position: inside;
 }
@@ -114,6 +126,80 @@ header img {
   width: 60px;
   margin: 10px auto;
   display: block;
+}
+
+a {
+  color: #1976d2;
+}
+
+/* Code */
+code {
+  padding: 2px 4px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.9rem;
+  color: var(--code-text-color);
+  background-color: var(--code-bg-color);
+  border-radius: 0.3rem;
+}
+
+pre {
+  padding: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  color: var(--code-text-color);
+  word-wrap: normal;
+  background-color: var(--code-bg-color);
+  border: solid 1px var(--border-color);
+  border-radius: 0.3rem;
+}
+pre > code {
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--code-text-color);
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.highlight {
+  margin-bottom: 1rem;
+}
+
+.highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.highlight pre,
+pre {
+  padding: 0.8rem;
+  overflow: auto;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  border-radius: 0.3rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+pre code,
+pre tt {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+pre code:before,
+pre code:after,
+pre tt:before,
+pre tt:after {
+  content: normal;
 }
 
 @media screen and (max-width: 640px) {

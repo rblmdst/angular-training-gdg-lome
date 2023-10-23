@@ -56,4 +56,11 @@ components, signaux) et couvrira principalement les notions suivantes
 
 ## A propos du formateur :
 
-[Modeste ASSIONGBON](https://twitter.com/rblmdst), développeur Web JavaScript Senior, formateur et passionné par JavaScript et Angular. Je crée également du contenu sur YouTube [(Dev Propulor)](https://youtube.com/@devpropulsor) pour partager mes connaissances avec la communauté francophone.
+Je suis [Modeste ASSIONGBON](https://twitter.com/rblmdst), développeur Web JavaScript Senior, formateur et passionné par JavaScript et Angular. Je crée également du contenu sur YouTube [(Dev Propulor)](https://youtube.com/@devpropulsor) pour partager mes connaissances avec la communauté francophone.
+
+## Autres :
+
+- [Repo Github pour le partage du code](https://github.com/rblmdst/angular-training-gdg-lome)
+- [Canal d'échange (Discord)](https://discord.gg/SCyU9aatup)
+
+[⬅️ retour](https://rblmdst.github.io/angular-training-gdg-lome/day-1)

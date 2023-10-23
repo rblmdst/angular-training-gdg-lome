@@ -9,6 +9,7 @@ Angular est un framework JavaScript développé par Google, permettant de créer
 Angular offre des fonctionnalités pour développer une application complète et stable :
 
 - Composant réutilisable
+- Formulaire
 - Service
 - Routing
 - Appel HTTP
@@ -26,3 +27,5 @@ Angular offre des fonctionnalités pour développer une application complète et
 - Git
 - Node.Js
 - VSCode (Angular Langage Service, Quokka.js, GitLens)
+
+[⬅️ retour](https://rblmdst.github.io/angular-training-gdg-lome/day-1)

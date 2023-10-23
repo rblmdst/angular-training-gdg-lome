@@ -55,3 +55,5 @@ class App {
 	// remove role
 }
 ```
+
+[⬅️ retour](https://rblmdst.github.io/angular-training-gdg-lome/day-1)
