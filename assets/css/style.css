@@ -101,3 +101,8 @@ footer {
 main li {
   list-style-position: inside;
 }
+
+h1 {
+  color: #868282;
+  text-align: center;
+}
