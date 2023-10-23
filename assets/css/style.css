@@ -102,7 +102,8 @@ main li {
   list-style-position: inside;
 }
 
-h1 {
+main h1 {
   color: #868282;
   text-align: center;
+  display: block;
 }
