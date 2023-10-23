@@ -1,6 +1,8 @@
 # Introduction rapide au TypeScript
 
-TypeScript = JavaScript + Types
+**TypeScript** = JavaScript + Types
+
+![Typescript](https://rblmdst.github.io/angular-training-gdg-lome/assets/images/typescript.png)
 
 - Installation du compilateur : `tsc`
 
@@ -22,7 +24,7 @@ tsc file.ts [...file2.ts]
 ```
 
 - Fichier de configuration : `tsconfig.json`
-  l'essentiel du fichier de configuration: module, output, src, includes, etc.
+  L'essentiel du fichier de configuration: module, output, src, includes, etc.
 
 - Déclaration de variable
   - type primitif (`string`, `boolean`, `entier`, `null`, `undefined`, `symbol`, `bigInt`)
