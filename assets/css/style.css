@@ -78,13 +78,15 @@ header nav {
   justify-content: center;
   margin-top: 10px;
 }
-header nav li {
-  padding: 10px 20px;
-}
+
 header nav li a,
 header h1 li a {
   color: #fff;
   text-decoration: none;
+}
+header nav li a {
+  display: inline-block;
+  padding: 10px 20px;
 }
 header nav li:hover {
   background-color: #75aade;
