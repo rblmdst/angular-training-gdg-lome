@@ -202,6 +202,10 @@ pre tt:after {
   content: normal;
 }
 
+ul ul {
+  text-indent: 15px;
+}
+
 @media screen and (max-width: 640px) {
   main {
     width: 100%;
