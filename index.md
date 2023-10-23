@@ -53,3 +53,7 @@ components, signaux) et couvrira principalement les notions suivantes
 - Le routing
 - Les formulaires (formulaires réactifs)
 - Etc.
+
+## A propos du formateur :
+
+[Modeste ASSIONGBON](https://twitter.com/rblmdst), développeur Web JavaScript Senior, formateur et passionné par JavaScript et Angular. Je crée également du contenu sur YouTube [(Dev Propulor)](https://youtube.com/@devpropulsor) pour partager mes connaissances avec la communauté francophone.
