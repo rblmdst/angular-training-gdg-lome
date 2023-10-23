@@ -8,19 +8,26 @@
 
 ```
 npm init
+# Global install
+npm i -g typescript
+
+# local install (need some edit to npm script)
 npm i typescript
 ```
 
 - Initialisation d'un projet TS
 
 ```
+mkdir <project_folder>
+cd <project_folder>
 tsc --init
 ```
 
 - compilation de fichier
 
 ```
-tsc file.ts [...file2.ts]
+touch file1.ts
+tsc file1.ts [...file2.ts]
 ```
 
 - Fichier de configuration : `tsconfig.json`
