@@ -43,10 +43,8 @@ h1 {
   margin: 1.6rem 0;
 }
 h2 {
-  border-top: 1px solid #dbdbdb;
   font-size: 3.2rem;
   margin-top: 4rem;
-  padding-top: 4rem;
 }
 
 h3 {
@@ -67,6 +65,12 @@ header h1 {
   display: block;
   margin: 0;
   color: #fff;
+}
+
+header h1 a {
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
 }
 
 header nav {
