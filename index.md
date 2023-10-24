@@ -62,5 +62,3 @@ Je suis [Modeste ASSIONGBON](https://twitter.com/rblmdst), développeur Web Java
 
 - [Repo Github pour le partage du code](https://github.com/rblmdst/angular-training-gdg-lome)
 - [Canal d'échange (Discord)](https://discord.gg/SCyU9aatup)
-
-[⬅️ retour](https://rblmdst.github.io/angular-training-gdg-lome/day-1)
