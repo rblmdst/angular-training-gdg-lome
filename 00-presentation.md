@@ -9,5 +9,3 @@ Fournir les éléments essentiels pour construire une application avec Angular e
 - Présentation d'une notion
 - Exemple pratique
 - Exercices
-
-[⬅️ retour](https://rblmdst.github.io/angular-training-gdg-lome/day-1)
