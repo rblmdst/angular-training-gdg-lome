@@ -14,10 +14,10 @@ Un composant est un block de code réutilisable et autonome.
 ex: display value of an input.
 
 - Event binding
-- click
-  ex: increment, decrement.
-- input
-  ex: display value of an input
+  - click
+    ex: increment, decrement.
+  - input
+    ex: display value of an input
 - Attribute binding
 
   - class
