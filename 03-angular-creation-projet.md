@@ -2,19 +2,19 @@
 
 - installation du cli
 
-```bash
+```
 npm i -g @angular/cli
 ```
 
 - generation du projet
 
-```bash
+```
 ng new projet_name
 ```
 
 - lancer le projet
 
-```bash
+```
 cd projet_name
 npm run start
 ```
