@@ -1,0 +1,17 @@
+<label>Nom :</label>
+<input [type]="inputType" (input)="nameChanghed(nameInput.value)" #nameInput />
+<button (click)="toggle()">Toggle</button>
+<p [class]="mycolor">{{ name }}</p>
+<p>{{ age + count }}</p>
+<p>{{ tempName }}</p>
+
+<div>
+  <p>{{ count }}</p>
+  <button (click)="increment()">Increment</button>
+  <button (click)="decrement()">Decrement</button>
+</div>
+
+<div>
+  <button (click)="mycolor = 'red'">Red</button>
+  <button (click)="mycolor = 'green'">Green</button>
+</div>
