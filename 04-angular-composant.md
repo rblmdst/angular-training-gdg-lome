@@ -8,29 +8,21 @@ Un composant est un block de code réutilisable et autonome.
   - selector
   - style
   - controller
-- Interpolation
-- Template variable
+  - Interpolation
+  - Template variable
 
-  ex: display value of an input.
+ex: display value of an input.
 
 - Event binding
-
-  - click
-
-    ex: increment, decrement.
-
-  - input
-
-    ex: display value of an input.
-
+- click
+  ex: increment, decrement.
+- input
+  ex: display value of an input
 - Attribute binding
 
   - class
-
-  ex: change the `class` when user clicked on a button (error, warning, sucess)
-
+    ex: change the `class` when user clicked on a button (error, warning, sucess)
   - attr
-
     ex: hide/display password
 
 - Parent-Child components

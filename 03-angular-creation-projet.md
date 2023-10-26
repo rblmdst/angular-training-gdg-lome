@@ -26,3 +26,5 @@ npm run start
   - bootstrap
   - etc
 - explication rapide du démarrage (bootstraping) d'une application Angular
+
+[⬅️ retour](https://rblmdst.github.io/angular-training-gdg-lome/day-2)
