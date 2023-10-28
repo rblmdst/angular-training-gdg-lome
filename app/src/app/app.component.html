@@ -1,0 +1,5 @@
+<app-user-details [user]="currentUser"></app-user-details>
+<app-user-list
+  (showDetails)="onShowDetails($event)"
+  [users]="users"
+></app-user-list>

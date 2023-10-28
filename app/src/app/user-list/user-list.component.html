@@ -1,0 +1,5 @@
+<app-user-item
+  *ngFor="let user of users"
+  (details)="onDetails($event)"
+  [user]="user"
+></app-user-item>
