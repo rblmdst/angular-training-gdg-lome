@@ -6,7 +6,9 @@ Repo for Angular training co-organized with GDG of Lome
 
 [angular-training](https://rblmdst.github.io/angular-training-gdg-lome/)
 
-# Day 2
+# Day 1 : Angular Overview + Quick intro to TypeScript
+
+# Day 2 : Start new Angular project + Intro to Component
 
 - to use the "day 2" existing project
 
@@ -17,3 +19,17 @@ cd app
 npm install
 npm run start
 ```
+
+# Day 3 : Communication between components + Intro to Directive(in progress)
+
+- to use the "day 3" existing project
+
+```
+git fetch day_3
+git checkout day_3
+cd app
+npm install
+npm run start
+```
+
+- [Figma Mock-up](https://www.figma.com/file/LIuuSL8mPBJIR01BoPtrYi/Untitled?type=design&node-id=834-2&mode=design&t=CaBlhlHHE1ptbCQ9-0)
