@@ -21,7 +21,7 @@ La librairie RxJs (**R**eactive E**x**tensions for **JavaScript**) fournit un en
 Un flux peut émettre des données, et en cas d'erreur, l'émission de valeurs s'arrête. Si aucune action n'est entreprise, le flux est donc coupé ou détruit.
 Lorsqu'il n'y a plus de données à émettre, le flux se complète, et les souscriptions s'arrêtent.
 
-<img src="https://rblmdst.github.io/angular-training-gdg-lome/assets/images/marble-diagram-anatomy.svg" width="500" style="background-color:silver;">
+<img src="https://rblmdst.github.io/angular-training-gdg-lome/assets/images/marble-diagram-anatomy.svg" width="640">
 
 Image Source : https://rxjs.dev/guide/operators
 
