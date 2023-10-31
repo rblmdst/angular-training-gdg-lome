@@ -12,9 +12,17 @@ La programmation réactive repose sur deux concepts clés : l'observable(**Obser
 - **Un observateur** (Observer) est une entité qui souscrit à une source de données pour être informée des émissions de valeurs de cette source. Dans la pratique, il s'agit d'un objet doté des attributs `next`, `error`, et `complete`, qui font référence à des rappels(_callbacks_) à appeler respectivement lors de l'émission d'une valeur, lorsqu'une erreur survient, et lorsque l'émission se termine.
 - Lorsqu'un observateur souscrit à un flux, cela crée ce que l'on appelle **une souscription**.
 
+<img src="https://rblmdst.github.io/angular-training-gdg-lome/assets/images/diagram-reactive-programming.png" width="640">
+
 ## RxJS
 
 La librairie RxJs (**R**eactive E**x**tensions for **JavaScript**) fournit un ensemble d'utilitaires pour la programmation réactive.
+
+### Installation
+
+```
+npm i rxjs
+```
 
 ### Émission
 
