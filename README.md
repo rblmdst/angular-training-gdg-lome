@@ -33,3 +33,15 @@ npm run start
 ```
 
 - [Figma Mock-up](https://www.figma.com/file/LIuuSL8mPBJIR01BoPtrYi/Untitled?type=design&node-id=834-2&mode=design&t=CaBlhlHHE1ptbCQ9-0)
+
+# Day 4 : Introduction to RxJS
+
+- to use the "day 4" existing project
+
+```
+git fetch day_4
+git checkout day_4
+cd test_rxjs
+npm install
+node --watch index
+```
