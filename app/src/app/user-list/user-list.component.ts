@@ -20,11 +20,16 @@ import { User } from '../user';
 export class UserListComponent {
   @Input() users: User[] = [];
   @Output() showDetails = new EventEmitter<string>();
+  @Output() removeUser = new EventEmitter<string>();
 
   currentUser!: User;
 
   onDetails(userId: string) {
     console.log('Parent ', userId);
     this.showDetails.emit(userId);
+  }
+
+  onDelete(userId: string) {
+    this.removeUser.emit(userId);
   }
 }

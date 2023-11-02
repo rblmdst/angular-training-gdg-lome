@@ -1,37 +1,35 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 import { User } from './user';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { UserService } from './user.service';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [UserDetailsComponent, UserListComponent],
+  imports: [UserDetailsComponent, UserListComponent, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  providers: [UserService],
 })
-export class AppComponent {
-  users: User[] = [
-    {
-      id: 'a2bf',
-      name: 'RakNj',
-      sex: 'M',
-    },
-    {
-      id: 'a2aa',
-      name: 'AliK',
-      sex: 'M',
-    },
-    {
-      id: 'a19f',
-      name: 'Ell@d',
-      sex: 'F',
-    },
-  ];
-
+export class AppComponent implements OnInit {
   currentUser: User | null = null;
+  users: User[] = [];
+
+  userService = inject(UserService);
+
+  constructor(/* private userService: UserService */) {}
+
+  ngOnInit(): void {
+    this.users = this.userService.getUsers();
+  }
 
   onShowDetails(userId: string) {
-    this.currentUser = this.users.find((user) => user.id === userId) || null;
+    this.currentUser = this.userService.getUser(userId);
+  }
+  onRemoveUser(userId: string) {
+    this.userService.deleteUser(userId);
+    this.users = this.userService.getUsers();
   }
 }
