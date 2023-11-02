@@ -33,3 +33,15 @@ npm run start
 ```
 
 - [Figma Mock-up](https://www.figma.com/file/LIuuSL8mPBJIR01BoPtrYi/Untitled?type=design&node-id=834-2&mode=design&t=CaBlhlHHE1ptbCQ9-0)
+
+# Day 5 : Services + Routing (WIP)
+
+- to use the "day 5" existing project
+
+```
+git fetch day_5
+git checkout day_5
+cd app
+npm install
+npm run start
+```
