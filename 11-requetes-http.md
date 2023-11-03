@@ -60,7 +60,6 @@ json-server --watch db.json
 ```
 
 - Endpoints de test accessibles : `localhost:3000/users`
-
 - Générer des UUID depuis le navigateur (ID des users au besoin):
 
 ```ts
