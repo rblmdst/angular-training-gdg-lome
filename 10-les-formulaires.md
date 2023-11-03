@@ -28,4 +28,4 @@ Permet de regrouper plusieurs FormControl.
 
 Permet d'éviter la verbosité
 
-[⬅️ retour](https://rblmdst.github.io/angular-training-gdg-lome/day-5)
+[⬅️ retour](https://rblmdst.github.io/angular-training-gdg-lome/day-6)
