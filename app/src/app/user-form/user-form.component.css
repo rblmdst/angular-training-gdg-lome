@@ -1,0 +1,10 @@
+.form-control-row {
+  margin: 10px 0;
+}
+
+.error-block {
+  color: red;
+}
+.sex-block label {
+  margin-left: 10px;
+}

@@ -1,0 +1,62 @@
+<!-- Name -->
+<div class="form-control-row">
+  <div>
+    <label>Name :</label> <input [formControl]="nameCtrl" type="text" />
+  </div>
+  <div class="error-block" *ngIf="nameCtrl.errors && nameCtrl.dirty">
+    <p *ngIf="nameCtrl.errors['required']">The user name is required</p>
+    <p *ngIf="nameCtrl.errors['minlength']">
+      The user name must be at least 3 characters
+    </p>
+  </div>
+</div>
+<!-- Sex -->
+<div class="form-control-row">
+  <div class="sex-block">
+    <span>Sex : </span>
+    <label for="sex-f"
+      >F<input
+        [formControl]="sexCtrl"
+        value="F"
+        name="sex"
+        id="sex-f"
+        type="radio"
+    /></label>
+    <label for="sex-m"
+      >M<input
+        [formControl]="sexCtrl"
+        value="M"
+        name="sex"
+        id="sex-m"
+        type="radio"
+    /></label>
+    <label for="sex-o"
+      >O<input
+        [formControl]="sexCtrl"
+        value="0"
+        name="sex"
+        id="sex-o"
+        type="radio"
+    /></label>
+  </div>
+  <!-- <div class="error-block" *ngIf="nameCtrl.errors && nameCtrl.dirty">
+    <p *ngIf="nameCtrl.errors['required']">The user sex is required</p>
+  </div> -->
+</div>
+<p>
+  {{ sexCtrl.value }}
+</p>
+<!-- 
+  
+
+<div>Dirty : {{ nameCtrl.dirty | json }}</div>
+<div>Touched : {{ nameCtrl.touched | json }}</div> -->
+<!-- NgModel/Template Drive Form -->
+<!-- <div class="form-control-row">
+  <label>Name :</label>
+  <input [(ngModel)]="name" type="text" />
+</div>
+
+<div>
+  {{ name }}
+</div> -->
