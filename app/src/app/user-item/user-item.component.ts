@@ -18,6 +18,7 @@ export class UserItemComponent {
 
   @Output() details = new EventEmitter<string>();
   @Output() remove = new EventEmitter<string>();
+  @Output() edit = new EventEmitter<string>();
 
   onDetails() {
     console.log('details', this.user.id);
@@ -30,5 +31,6 @@ export class UserItemComponent {
   }
   onEdit() {
     console.log('edit', this.user.id);
+    this.edit.next(this.user.id);
   }
 }

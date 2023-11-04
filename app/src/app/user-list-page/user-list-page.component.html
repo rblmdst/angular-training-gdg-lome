@@ -1,1 +1,8 @@
-<p>user-list-page works!</p>
+<h1>User List</h1>
+
+<app-user-list
+  (showDetails)="onShowDetails($event)"
+  (removeUser)="onRemoveUser($event)"
+  (editUser)="onEditUser($event)"
+  [users]="users"
+></app-user-list>

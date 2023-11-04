@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav li a:hover {
+  text-decoration: underline;
+  color: #2222aa;
+}

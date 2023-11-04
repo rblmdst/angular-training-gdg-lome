@@ -21,6 +21,7 @@ export class UserListComponent {
   @Input() users: User[] = [];
   @Output() showDetails = new EventEmitter<string>();
   @Output() removeUser = new EventEmitter<string>();
+  @Output() editUser = new EventEmitter<string>();
 
   currentUser!: User;
 
@@ -31,5 +32,9 @@ export class UserListComponent {
 
   onDelete(userId: string) {
     this.removeUser.emit(userId);
+  }
+
+  onEdit(userId: string) {
+    this.editUser.emit(userId);
   }
 }

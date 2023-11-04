@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "Njara",
+      "sex": "F",
+      "id": "a2bf"
+    },
+    {
+      "name": "Modest",
+      "sex": "M",
+      "id": "c6929c8d-822c-47d0-a607-856dc39bb199"
+    },
+    {
+      "name": "NewUser",
+      "sex": "0",
+      "id": "0d20cd9b-5741-4f8c-864a-fc7aa2cffe5d"
+    }
+  ]
+}

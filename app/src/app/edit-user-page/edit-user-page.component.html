@@ -1,0 +1,7 @@
+<h1>Edit User</h1>
+<app-user-form
+  (editUser)="onEditUser($event)"
+  [action]="'edit'"
+  [userId]="userId"
+  [userToEdit]="userToEdit"
+></app-user-form>

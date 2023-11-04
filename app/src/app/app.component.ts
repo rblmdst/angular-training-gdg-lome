@@ -1,5 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './header/header.component';
 import { User } from './user';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { UserListComponent } from './user-list/user-list.component';
@@ -8,7 +9,7 @@ import { UserService } from './user.service';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [UserDetailsComponent, UserListComponent, RouterOutlet],
+  imports: [HeaderComponent, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   providers: [UserService],

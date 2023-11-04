@@ -2,5 +2,6 @@
   *ngFor="let user of users"
   (details)="onDetails($event)"
   (remove)="onDelete($event)"
+  (edit)="onEdit($event)"
   [user]="user"
 ></app-user-item>

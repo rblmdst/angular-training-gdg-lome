@@ -8,3 +8,7 @@
 .sex-block label {
   margin-left: 10px;
 }
+.actions-btns button {
+  margin-left: 10px;
+  display: inline-block;
+}
